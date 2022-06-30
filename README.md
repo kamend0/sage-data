@@ -1,13 +1,11 @@
 # Purpose
 
-This repo contains code used to clean and load recipes data to MongoDB Atlas for use in mint-green-recipes. See corresponding repo for server code.
+This repo contains code used to clean and load recipes data to MongoDB Atlas and AWS S3.
 
 ## Data Used
 
-Data for all recipes was pulled from a dataset I found on eightportions.com, called Recipebox. The website and its creator's GitHub repo for it can be found at the following links, respectively:
+Data for all recipes was pulled from a dataset I found on Kaggle put together by Sakshi Goel, Amogh Desai, and Tanvi, originally scraped from Epicurious. Source link:
 
-https://eightportions.com/datasets/Recipes/
+https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
 
-https://github.com/rtlee9/recipe-box
-
-Huge thanks to them for putting that together, this would not have been possible without them. The recipes are originally from Food Network, Epicurious, and Allrecipes.com; their program scraped that data. All rights to the recipes in this project ultimately go to each of those providers.
+Huge thanks to them for putting this together; this project would not have been possible without them. All rights to the recipes in this project ultimately go to each of those platforms.
